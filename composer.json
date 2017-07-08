@@ -1,0 +1,21 @@
+{
+    "name": "cvs/fabrication",
+    "description": "Fabrication package for cvs.",
+    "keywords": ["lavalite", "Fabrication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cvs\\Fabrication\\": "src/Cvs/Fabrication"
+        }
+    },
+    "minimum-stability": "dev"
+}
